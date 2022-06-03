@@ -1,0 +1,50 @@
+button {
+    background-color: rgb(225, 224, 224);
+    border-color: transparent;
+    border-radius: 60px;
+}
+
+button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.swipeButtons {
+    height: 20px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 50;
+    position: absolute;
+    bottom: 10vh;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.swipeButtons .MultiButton-root {
+    background-color: white;
+    box-shadow: 0px 10px 53px 0px rgba(0, 0, 0, 0.3) !important;
+}
+
+.swipeButtons_repeat {
+    padding: 3vw !important; 
+    color: orange !important;
+}
+
+.swipeButtons_left {
+    padding: 3vw !important;
+    color: red !important;
+}
+
+.swipeButtons_star {
+    padding: 3vw !important;
+    color: blue !important;
+}
+
+.swipeButtons_right {
+    padding: 3vw !important;
+    color: lightgreen !important;
+}
+
+.swipeButtons_lightning {
+    padding: 3vw !important;
+    color: purple !important;
+}
